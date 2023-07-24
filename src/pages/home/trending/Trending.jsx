@@ -10,7 +10,6 @@ const Trending = () => {
   const onTabChange = (tab) => {
     setEndPint(tab === 'Day' ? 'day' : 'week')
   }
-  console.log(data)
   return (
     <div className="carouselSection">
       <ContentWrapper>
